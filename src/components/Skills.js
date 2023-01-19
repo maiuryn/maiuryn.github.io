@@ -1,12 +1,12 @@
 import React from "react";
 import Section from "./Section";
 
-function About()
+function Skills()
 {
     return(
     <>
         <div className="snap-mandatory">
-            <Section id="about" header="About">
+            <Section id="skills" header="Skills">
                 <p className="">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas commodo arcu sapien, eget aliquet libero accumsan id. 
                 Proin condimentum faucibus mauris, non dictum enim faucibus vitae. Integer luctus non diam vel suscipit. Aliquam mattis euismod vestibulum. 
@@ -31,4 +31,4 @@ function About()
     );
 }
 
-export default About;
+export default Skills;
