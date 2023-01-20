@@ -10,6 +10,14 @@ html {
   
 }
 
+div {
+  user-select: none;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
 
 /* Scrollbar */
 ::-webkit-scrollbar {
@@ -29,3 +37,4 @@ html {
 ::-webkit-scrollbar-thumb:active {
   background: rgb(160, 160, 160);
 }
+
