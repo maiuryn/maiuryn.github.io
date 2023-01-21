@@ -11,12 +11,12 @@ function Projects()
         <div className="snap-mandatory">
             <Section id="projects" header="Projects" override="justify-center">
                 <ProjectItem name="Music Player" img={playlist} link="https://github.com/maiuryn/PlayList">
-                    <p>
+                    <p className="text-2xl">
                         A simple music player
                     </p>
                 </ProjectItem>
                 <ProjectItem name="Wordle Guesser" img={wordle} link="https://github.com/maiuryn/Worlde-Guesser">
-                    <p>
+                    <p className="text-2xl">
                         Algorithm that solves Wordles
                     </p>
                 </ProjectItem>
