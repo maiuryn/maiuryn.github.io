@@ -5,4 +5,36 @@
 html {
   background-color: #222222;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth !important;
+  color: #ffffff;
+  
 }
+
+div {
+  user-select: none;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(70, 70, 70);
+  /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgb(160, 160, 160);
+}
+
