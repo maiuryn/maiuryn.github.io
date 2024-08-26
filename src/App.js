@@ -14,8 +14,8 @@ function App() {
       <div className="pt-[150px]">
         <About />
         <Projects />
-        <Skills />
         <Contact />
+        <Skills />
       </div>
 
       <Footer />
