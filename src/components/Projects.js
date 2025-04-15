@@ -5,6 +5,7 @@ import playlist from "../images/playlist.gif"
 import wordle from "../images/wordle.gif"
 import keywordTool from "../images/keywordtool.png"
 import dlld from "../images/dlld.png"
+import gradeVisualizer from "../images/grade-visualizer.png"
 
 function Projects()
 {
@@ -12,6 +13,11 @@ function Projects()
     <>
         <div className="snap-mandatory">
             <Section id="projects" header="Projects" override="justify-center">
+                <ProjectItem name="Grade Visualizer" img={gradeVisualizer} link="https://grade-visualizer.vercel.app/">
+                    <p className="text-2xl">
+                        Website to display UIC grade data
+                    </p>
+                </ProjectItem>
                 <ProjectItem name="Keyword Tool" img={keywordTool} link="https://www.youtube.com/watch?v=518OqOcI6CU">
                     <p className="text-2xl">
                         A dashboard to research keywords
