@@ -6,6 +6,7 @@ import wordle from "../images/wordle.gif"
 import keywordTool from "../images/keywordtool.png"
 import dlld from "../images/dlld.png"
 import gradeVisualizer from "../images/grade-visualizer.png"
+import baccarat from "../images/baccarat.png"   
 
 function Projects()
 {
@@ -26,6 +27,11 @@ function Projects()
                 <ProjectItem name="Death Lives Life Dies" img={dlld} link="https://youtu.be/wMsPHzMtaac">
                     <p className="text-2xl">
                         A VR game created for the CAVE2 system
+                    </p>
+                </ProjectItem>
+                <ProjectItem name="Baccarat" img={baccarat} link="https://github.com/maiuryn/Baccarat">
+                    <p className="text-2xl">
+                        Simulation of Baccarat, commonly played in casinos
                     </p>
                 </ProjectItem>
                 <ProjectItem name="Music Player" img={playlist} link="https://github.com/maiuryn/PlayList">

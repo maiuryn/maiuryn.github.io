@@ -12,7 +12,7 @@ function Navbar()
                     <div className="space-x-[2px]">
                         <NavbarItem text="About" link="#about"/>
                         <NavbarItem text="Projects" link="#projects"/>
-                        <NavbarItem text="Skills" link="#skills"/>
+                        {/* <NavbarItem text="Skills" link="#skills"/> */}
                         <NavbarItem text="Contact" link="#contact"/>
                     </div>
                 </div>
