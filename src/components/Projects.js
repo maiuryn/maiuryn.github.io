@@ -6,7 +6,7 @@ import wordle from "../images/wordle.gif"
 import keywordTool from "../images/keywordtool.png"
 import dlld from "../images/dlld.png"
 import gradeVisualizer from "../images/grade-visualizer.png"
-import baccarat from "../images/baccarat.png"   
+import baccarat from "../images/baccarat.gif"   
 
 function Projects()
 {
